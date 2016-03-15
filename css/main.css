@@ -1,0 +1,230 @@
+/* --- Universal --- */
+body {
+	background-color: #eeeeee;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #83827c; 
+}
+
+section {
+	margin: 50px auto 0;
+	width: 95%;
+}
+
+/* --- Navigation --- */
+
+nav {
+	width: 95%;
+	height: 135px;
+	border-bottom: 3px solid #b5b4b0;
+	margin: 0 auto;
+}
+nav img {
+	margin: 45px 0 0 -15px;
+}
+
+nav ul {
+	float: right;
+	margin: 80px -30px 0 0;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #83827c;
+	margin-right: 50px
+}
+
+/* --- Header --- */
+
+header {
+	width: 95%;
+	margin: 60px auto 50px;
+	text-align: center;
+}
+
+header h1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing: 1.5px;
+	font-size: 40px;
+	color: #83827c; 
+}
+
+header .teal {
+	color: #26bec9;
+}
+
+header p {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	font-size: 20px
+}
+
+/* --- Banner Image --- */
+
+.banner {
+	text-align: center;
+}
+
+.banner  img {
+	width: 95%;
+	border-radius: 15px;
+}
+
+/* --- About Me and My Work --- */
+
+.aboutme,
+.mywork {
+	width: 48%;
+	float: left;
+}
+
+.aboutme h2,
+.mywork h2 {
+	font-family: 'Sacramento', cursive;
+	color: #26bec9;
+	font-size: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.aboutme p,
+.mywork p {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 18px;
+	letter-spacing: .5px;
+}
+
+.aboutme {
+	margin-right: 4%;
+}
+
+/* --- Work --- */
+
+.work {
+	margin-top: 250px;
+	width: 85%;
+}
+section .rowtwo {
+	margin-top: 50px;
+}
+
+section .box {
+	display: inline-block;
+	height: 200px;
+	width: 18%;
+	margin-right: 2.13%;
+	background-image: url('../img/bluesky.jpg');
+	border-radius: 15px;
+}
+
+.rowone .box:nth-child(5),
+.rowtwo .box:nth-child(5) {
+	margin-right: 0;
+}
+
+.box h3,
+.box p {
+	background-color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	position: relative;
+	top: 145px;
+}
+
+.box h3 {
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 5px 10px 2px;
+}
+
+.box p {
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding: 0 10px 10px;
+	color: #26bec9;
+	border-radius: 0 0 15px 15px;
+}
+
+.work h4 {
+	margin: 70px 0 50px;
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	font-size: 35px;
+	color: #26bec9;
+}
+
+/* --- Footer --- */
+
+footer {
+	background-color: #83827c;
+	width: 100%; 
+}
+
+.form {
+	width: 45%;
+	padding: 20px 0 25px 50px;
+}
+
+footer h3 {
+	font-family: 'Sacramento', cursive;
+	color: #26bec9;
+	font-size: 35px;
+}
+
+input,
+textarea {
+	width: 80%;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	background-color: #eee;
+}
+
+button {
+	padding: 5px 30px;
+	background-color: #26bec9;
+	color: #fff;
+	border: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.social {
+	position: relative;
+	left: 80%;
+	top: -135px;
+}
+
+.fa {
+	width: 30px;
+	height: 30px;
+	background-color: #26bec9;
+	border-radius: 50%;
+	font-size: 1.5em;
+	padding: 10px 0 0 10px;
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
